@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <div class="dash-right">
+
+        <div class="avisos">
+            <div class="container">
+                <h1>Publicar um aviso</h1>
+                <div class="div-form">
+                    <form id="form_postagem" method="post" onsubmit="return publicar()">
+                        <label>
+                            Nome:
+                            <br>
+                            <input name="titulo" id="titulo" maxlength="100" type="text">
+                        </label>
+                        <br>
+                        <label>
+                            Rua:
+                            <br>
+                            <input name="rua" id="rua" maxlength="100" type="text">
+                        </label>
+                        <br>
+                        <label>
+                            CEP:
+                            <br>
+                            <input name="cep" id="cep" maxlength="100" type="text">
+                        </label>
+                        <br>
+                        <label>
+                            Data e Hora:
+                            <br>
+                            <input name="dt-hora" id="dt-hora" maxlength="100" type="text">
+                        </label>
+                        <br>
+                        <label>
+                            Descrição (máximo de 250 caracteres):
+                            <br>
+                            <textarea name="descricao" id="textarea_descricao" maxlength="250" rows="5"></textarea>
+                        </label>
+                        <br>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+                <h1>Mural de Avisos</h1>
+                <div class="div-results">
+                    <div id="feed_container" class="feed-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>    
+</body>
+</html>
