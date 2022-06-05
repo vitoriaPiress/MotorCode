@@ -11,8 +11,8 @@
     <!-- <link rel="stylesheet" href="../css/home.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.4/dist/css/splide.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.4/dist/js/splide.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css"> -->
 </head>
 
 <body>
@@ -23,66 +23,67 @@
                 <li> <a class="agora" href="#">Home</a> </li>
                 <li> <a href="sobre nós.html"> Sobre nós</a></li>
                 |
-                <li> <a href="cadastro.html"> Cadastro</a></li>
+                <!-- <li> <a href="cadastro.html"> Cadastro</a></li> -->
                 <li> <a href="login.html"> Login</a></li>
             </ul>
         </div>
     </div>
 
-    <div class="homeContainer"> 
-    
-        <!-- primeira tela -->
-        <!-- <div class="container-texto-fogo">
-            <div class="banner">
-                    <p>
-                        MotorCode
-                    </p>
-            </div>    
+  <!-- <div class="homeContainer">  -->
+    <!-- <div class="container-texto-fogo"> -->
+      <section id="main" class="splide" aria-label="Carrossel da Introdução">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img src="../imagens/carrossel10.jpg" alt="" />
+              <div class="text-block-1">
+                <a href="#sobrenos">
+                  <h1>
+                    MotorCode
+                  </h1>
+                </a>
+                <!-- <p>
+                  Aperture Science™ é a líder em inovação científica,<br />
+                  e queremos você para nos ajudar a atingir nosso objetivo!
+                </p> -->
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="../imagens/carrossel09.jpg" alt="" />
+              <div class="text-block-2">
+                <h2>Fazemos o que devemos porque a gente pode!</h2>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="../imagens/carrossel06.jpg" alt="" />
+              <div class="text-block-3">
+                <h2>
+                  Todos participantes são recompensados com bolo<br />ao final dos
+                  testes 🎂😋!
+                </h2>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="../imagens/carrossel05.jpg" alt="" />
+              <div class="text-block-4">
+                <h2>
+                  Licenciados pela Aperture Science™,<br />os melhores cientistas
+                  do mundo<br />estão aqui!
+                </h2>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img src="../imagens/harley-davidson.jpg" alt="" />
+              <div class="text-block-5">
+                <h2>
+                  <q>A empresa de ciências aplicadas mais fod* da Terra!</q><br />
+                  <span>Cave Johnson, 1970</span>
+                </h2>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="txt">
-           <label> Filiados </label>
-        </div> -->
-    <div class="container-texto-fogo">
-        <section id="main" class="splide" aria-label="Carrossel da Introdução">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <img src="../imagens/carrossel05.jpg" alt=""  style="height: 100%; width: 100%;"/>
-                  <div class="text-block-1">
-                    <a href="#sobrenos">
-                      <h1>
-                        MOTORCODE
-                      </h1>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <img src="../imagens/carrossel06.jpg" alt="" style="height: 100%; width: 100%;"  />
-                  <div class="text-block-2">
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <img src="../imagens/carrossel07.jpg" alt="" style="height: 100%; width: 100%;" />
-                  <div class="text-block-3">
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <img src="../imagens/Captura de tela 2022-06-04 145621.png" alt="" style="width: 100%; height: 100%;"  />
-                  <div class="text-block-4">
-                    <h2>
-                    </h2>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <img src="../imagens/carrossel09.jpg" alt="" style="width: 100%; height: 100%;"  />
-                  <div class="text-block-5">
-                    <h2>
-                    </h2>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
+      </section>
         <br><br><br><br><br><br><br><br><br>
 
         <div class="txt">
@@ -108,7 +109,7 @@
                          <p>Cadastre-se para ver mais. <p> <a href="#"> Cadastrar</a></p></p>
         </div>
 
-    </div>
+  <!-- </div> -->
 
     <div class="cor-footer">
         <footer>
@@ -204,7 +205,7 @@
         speed: 1000,
         easing: "ease",
         autoplay: true,
-        interval: 4000,
+        interval: 2000,
         resetProgress: false,
         keyboard: "global",
       }).mount();

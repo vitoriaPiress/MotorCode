@@ -80,6 +80,11 @@ ul a{
     
 }
 
+#main .splide__slide img {
+    width: 1550px;
+    height: 100%;
+  }
+
 /* #main{
     padding-bottom: 50px;
     display: flex;
